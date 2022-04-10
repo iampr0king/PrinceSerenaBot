@@ -74,8 +74,6 @@ SFW_STRINGS = (
     "Stupidity is not a crime so you are free to go.",
 )
 
-@register(pattern=("/insult"))
-
 @run_async
 def insult(bot: Bot, update: Update):
     bot.sendChatAction(update.effective_chat.id, "typing") # Bot typing before send messages

@@ -1,10 +1,10 @@
 {
 
-      "name": "Nobisuki",
+      "name": "Nobisuki Bot",
 
       "description": "Telegram group management bot.",
 
-      "logo": "",
+      "logo": "https://telegra.ph/file/11617d58245e4fd666428.jpg",
 
       "keywords": [
 
@@ -20,7 +20,7 @@
 
       ],   
 
-   "repository": "https://github.com/godofanjal/Nobisukigit",
+   "repository": "https://github.com/godofanjal/NobisukiBotgit",
 
    "addons": [
 

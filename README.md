@@ -1,2 +1,1 @@
-# Nobisuki
-Group Manager Bot
+# NobisukiBot

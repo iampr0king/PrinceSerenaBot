@@ -268,7 +268,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "black"
     shadowcolor = "blue"
-    fnt = glob.glob("./MashaRoBot/resources/Logo/*")
+    fnt = glob.glob("./MashaRoBot/resources/*")
     randf = random.choice(fnt)
     font = ImageFont.truetype(randf, 120)
     w, h = draw.textsize(text, font=font)
@@ -280,7 +280,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "Cutiepii.png"
     img.save(fname, "png")
-    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by @WolfXRobot")         
+    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by @Nobisukibot")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)

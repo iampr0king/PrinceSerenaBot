@@ -60,16 +60,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐢 𝐈'𝐦 ✰𝐍𝐨𝐛𝐢𝐬𝐮𝐤𝐢✰
-
-𝐈 𝐀𝐦 𝐀𝐧 𝐀𝐧𝐢𝐦𝐞 𝐓𝐡𝐞𝐦𝐞𝐝 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 𝐖𝐢𝐭𝐡 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐮𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
-
+× 𝐈'𝐦 𝐒𝐞𝐫𝐞𝐧𝐚 𝐀𝐧𝐢𝐦𝐞-𝐓𝐡𝐞𝐦𝐞 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭
+───────────────────────
+× 𝐈'𝐦 𝐕𝐞𝐫𝐲 𝐅𝐚𝐬𝐭 𝐀𝐧𝐝 𝐌𝐨𝐫𝐞 𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲 𝐈 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐀𝐰𝐞𝐬𝐨𝐦𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬!
+───────────────────────
 𝐇𝐢𝐭 /help 𝐭𝐨 𝐟𝐢𝐧𝐝 𝐨𝐮𝐭 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞 𝐢𝐧 𝐦𝐲 𝐟𝐮𝐥𝐥 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥!"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/Nobisukibot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/PrinceSerenaBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/NobisukiSupport"),
@@ -90,7 +90,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝐇𝐢 𝐈'𝐦 ✰𝐍𝐨𝐛𝐢𝐬𝐮𝐤𝐢✰!
+𝐇𝐢 𝐈'𝐦 ✰𝐒𝐞𝐫𝐞𝐧𝐚✰!
 𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐦𝐚𝐧𝐚𝐠𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬!
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞:
 × /start: 𝐒𝐭𝐚𝐫𝐭 𝐭𝐡𝐞 𝐛𝐨𝐭
@@ -356,7 +356,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *✰𝐍𝐨𝐛𝐢𝐬𝐮𝐤𝐢✰*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *✰𝐒𝐞𝐫𝐞𝐧𝐚✰*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.

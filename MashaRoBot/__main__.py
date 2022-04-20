@@ -60,11 +60,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-× 𝐈'𝐦 𝐒𝐞𝐫𝐞𝐧𝐚 𝐀𝐧𝐢𝐦𝐞-𝐓𝐡𝐞𝐦𝐞 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭
-───────────────────────
-× 𝐈'𝐦 𝐕𝐞𝐫𝐲 𝐅𝐚𝐬𝐭 𝐀𝐧𝐝 𝐌𝐨𝐫𝐞 𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲 𝐈 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐀𝐰𝐞𝐬𝐨𝐦𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬[!](https://telegra.ph/file/73e474ffdece45c091755.jpg)
-───────────────────────
-𝐇𝐢𝐭 /help 𝐭𝐨 𝐟𝐢𝐧𝐝 𝐨𝐮𝐭 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞 𝐢𝐧 𝐦𝐲 𝐟𝐮𝐥𝐥 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥!"""
+𝐇𝐢 𝐈'𝐦 [✰𝐒𝐞𝐫𝐞𝐧𝐚✰](https://telegra.ph/file/73e474ffdece45c091755.jpg)
+𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐮𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help.
+
+✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰"""
 
 buttons = [
     [
@@ -78,7 +77,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="📡 𝐍𝐄𝐓𝐖𝐎𝐑𝐊", url="https://t.me/Pegasus_Network"),
+        InlineKeyboardButton(text="☠ 𝐃𝐞𝐯", url="https://t.me/call_me_crazyboy"),
         InlineKeyboardButton(
             text="🙋‍♂️ 𝐀𝐁𝐎𝐔𝐓", callback_data="masha_"
         ),

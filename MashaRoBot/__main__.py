@@ -73,7 +73,7 @@ buttons = [
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/NobisukiSupport"),
         InlineKeyboardButton(
-            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/PegasusUpdates"
+            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Koyuki_Updates"
         ),
     ],
     [

@@ -55,11 +55,11 @@ from MashaRoBot.resources.ImageEditor.edit_5 import (  # pylint:disable=import-e
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from MashaRoBot pbot
+from MashaRoBot pgram
 
 lel = 00000000
 # pylint:disable=import-error
-@pbot.on_message(filters.command(["edit", "editor"]))
+@pgram.on_message(filters.command(["edit", "editor"]))
 async def photo(client: pbot, message: Message):
     try:
         if not message.reply_to_message.photo:
@@ -125,8 +125,8 @@ async def photo(client: pbot, message: Message):
                 return
 
 
-@pbot.on_callback_query()
-async def cb_handler(client: pbot, query: CallbackQuery):
+@pgram.on_callback_query()
+async def cb_handler(client: pgram, query: CallbackQuery):
     user_id = query.from_user.id
     if lel == user_id:
         if query.data == "removebg":

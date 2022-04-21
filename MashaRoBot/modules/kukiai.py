@@ -38,12 +38,12 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             is_kuki = sql.rem_kuki(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
-                f"Nobisuki AI Disabled\n"
+                f"Serena AI Disabled\n"
                 f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
             )
         else:
             update.effective_message.edit_text(
-                "Nobisuki Chatbot Disable By {}.".format(mention_html(user.id, user.first_name)),
+                "Serena Chatbot Disable By {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
@@ -69,7 +69,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "Nobisuki Chatbot Enable By {}.".format(mention_html(user.id, user.first_name)),
+                "Serena Chatbot Enable By {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 

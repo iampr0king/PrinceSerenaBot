@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/callme_barath">?</a>]'.format(
+        text += ' [<a href="tg://settings">?</a>]'.format(
             bot.username
         )
 

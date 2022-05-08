@@ -64,12 +64,12 @@ def _onUnMuteRequest(client, cb):
             else:
                 client.answer_callback_query(
                     cb.id,
-                    text="❗ Warning! Don't press the button when you cn talk.",
+                    text="❗ Warning! Don't press the button when you can talk.",
                     show_alert=True,
                 )
 
 
-@pbot.on_message(filters.text & ~filters.private & ~filters.edited, group=1)
+@pbot.on_message(filter & ~filter, group=1)
 def _check_member(client, message):
     chat_id = message.chat.id
     chat_db = sql.fs_settings(chat_id)

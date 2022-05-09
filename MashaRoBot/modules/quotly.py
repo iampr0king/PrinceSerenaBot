@@ -722,3 +722,6 @@ async def q(event):
 
     os.remove('sticker.webp')
 
+
+
+

@@ -73,7 +73,7 @@ buttons = [
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/NobisukiSupport"),
         InlineKeyboardButton(
-            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Koyuki_Updates"
+            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/PegasusUpdates"
         ),
     ],
     [
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nobisukisupport")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/Koyuki_updates")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/PegasusUpdates")
                   ]
                 ]
             ),

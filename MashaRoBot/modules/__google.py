@@ -283,5 +283,5 @@ __help__ = """
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
  ❍ Masha <query>*:* Masha answers the query
-  💡Ex: `Nobisuki where is India?`
+  💡Ex: `Serena where is India?`
 """

@@ -79,7 +79,7 @@ buttons = [
     [
         InlineKeyboardButton(text="☠ 𝐃𝐞𝐯", url="https://t.me/call_me_crazyboy"),
         InlineKeyboardButton(
-            text="🙋‍♂️ 𝐀𝐁𝐎𝐔𝐓", callback_data="masha_"
+            text="🍒 𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆", url="https://t.me/UnitedSupport"
         ),
     ],
     [
@@ -349,66 +349,6 @@ def help_button(update, context):
     except BadRequest:
         pass
 
-
-@run_async
-def Masha_about_callback(update, context):
-    query = update.callback_query
-    if query.data == "masha_":
-        query.message.edit_text(
-            text=""" ℹ️ I'm *✬𝐒𝐞𝐫𝐞𝐧𝐚✬*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admin's permissions before executing any command and more stuffs
-                 \n\n_Serena's licensed under the GNU General Public License v3.0_
-                 \n\nIf you have any question about Serena, let us know at @Serena_support.""",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
-                 ]
-                ]
-            ),
-        )
-    elif query.data == "masha_back":
-        query.message.edit_text(
-                PM_START_TEXT,
-                reply_markup=InlineKeyboardMarkup(buttons),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=True,
-        )
-
-
-@run_async
-def Source_about_callback(update, context):
-    query = update.callback_query
-    if query.data == "source_":
-        query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
-                 ]
-                ]
-            ),
-        )
-    elif query.data == "source_back":
-        query.message.edit_text(
-                PM_START_TEXT,
-                reply_markup=InlineKeyboardMarkup(buttons),
-                parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
-                disable_web_page_preview=True,
-        )
 
 @run_async
 def get_help(update: Update, context: CallbackContext):

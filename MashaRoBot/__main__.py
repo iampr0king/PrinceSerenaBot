@@ -79,7 +79,7 @@ buttons = [
     [
         InlineKeyboardButton(text="☠ 𝐃𝐞𝐯", url="https://t.me/call_me_crazyboy"),
         InlineKeyboardButton(
-            text="🍒 𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆", url="https://t.me/UnitedSupport"
+            text="🤖 𝐃𝐄𝐕 𝐓𝐀𝐋𝐊", url="https://t.me/UnitedSupport"
         ),
     ],
     [

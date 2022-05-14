@@ -77,7 +77,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="☠ 𝐃𝐞𝐯", url="https://t.me/call_me_crazyboy"),
+        InlineKeyboardButton(text="☠ 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/itzmecrazy"),
         InlineKeyboardButton(
             text="🤖 𝐃𝐄𝐕 𝐓𝐀𝐋𝐊", url="https://t.me/UnitedSupport"
         ),

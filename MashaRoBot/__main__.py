@@ -73,13 +73,13 @@ buttons = [
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Serena_Support"),
         InlineKeyboardButton(
-            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/PegasusUpdates"
+            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/SerenaUpdates"
         ),
     ],
     [
         InlineKeyboardButton(text="👨‍💻 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/itzmecrazy"),
         InlineKeyboardButton(
-            text="🤖 𝐃𝐄𝐕 𝐓𝐀𝐋𝐊", url="https://t.me/UnitedSupport"
+            text="🤖 𝐃𝐄𝐕", url="https://t.me/P_R_OOO"
         ),
     ],
     [
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/serena_support")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/PegasusUpdates")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/SerenaUpdates")
                   ]
                 ]
             ),
@@ -389,8 +389,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
+            text=""" Hi..🤗 I'm *Serena*
+                 \nMy source code is private  [support](t.me/serena_support) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

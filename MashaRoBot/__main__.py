@@ -71,15 +71,15 @@ buttons = [
             text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/PrinceSerenaBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/NobisukiSupport"),
+        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Serena_Support"),
         InlineKeyboardButton(
             text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/PegasusUpdates"
         ),
     ],
     [
-        InlineKeyboardButton(text="☠ 𝐃𝐞𝐯", url="https://t.me/call_me_crazyboy"),
+        InlineKeyboardButton(text="☠ 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/itzmecrazy"),
         InlineKeyboardButton(
-            text="🙋‍♂️ 𝐀𝐁𝐎𝐔𝐓", callback_data="masha_"
+            text="🤖 𝐃𝐄𝐕 𝐓𝐀𝐋𝐊", url="https://t.me/UnitedSupport"
         ),
     ],
     [
@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nobisukisupport")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/serena_support")
                   ],
                   [
                   InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/PegasusUpdates")
@@ -363,7 +363,7 @@ def Masha_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admin's permissions before executing any command and more stuffs
                  \n\n_Serena's licensed under the GNU General Public License v3.0_
-                 \n\nIf you have any question about Serena, let us know at @NobisukiSupport.""",
+                 \n\nIf you have any question about Serena, let us know at @Serena_Support.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

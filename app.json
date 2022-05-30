@@ -92,7 +92,7 @@
 
          "required": false,
 
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "postgres://wtfmuaym:KD9lTybTR28erR8wCYdXoRUfK6cr6bOF@abul.db.elephantsql.com/wtfmuaym"
 
       },      
 

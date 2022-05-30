@@ -60,7 +60,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐢 𝐈'𝐦 [✬𝐒𝐞𝐫𝐞𝐧𝐚✬](https://telegra.ph/file/73e474ffdece45c091755.jpg)
+𝐇𝐢 𝐈'𝐦 [Serena ✘](https://telegra.ph/file/73e474ffdece45c091755.jpg)
 𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐮𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help.
 
 ✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰"""
@@ -89,7 +89,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝐇𝐢 𝐈'𝐦 ✬𝐒𝐞𝐫𝐞𝐧𝐚✬!
+𝐇𝐢 𝐈'𝐦 Serena ✘!
 𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐦𝐚𝐧𝐚𝐠𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬!
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞:
 × /start: 𝐒𝐭𝐚𝐫𝐭 𝐭𝐡𝐞 𝐛𝐨𝐭
@@ -355,7 +355,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *✬𝐒𝐞𝐫𝐞𝐧𝐚✬*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Serena ✘*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -389,7 +389,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Serena*
+            text=""" Hi..🤗 I'm *Serena ✘*
                  \nMy source code is private  [support](t.me/serena_support) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

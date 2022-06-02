@@ -17,7 +17,7 @@ from requests import get
 from telethon.tl.types import InputMessagesFilterPhotos
 from telethon import events, Button, custom, version
 
-from MashaRoBot import SUPPORT_CHAT
+from MashaRoBot import OWNER_ID
 from MashaRoBot.events import register
 from MashaRoBot import telethn as tbot
 from PIL import Image, ImageDraw, ImageFont

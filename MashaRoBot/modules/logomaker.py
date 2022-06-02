@@ -79,7 +79,7 @@ async def lego(event):
  if event.sender_id != OWNER_ID and not quew:
   await event.reply('**Please Gimmie A Text For The Logo**.')
   return
- pesan = await event.reply('**ᴍᴀᴋɪɴɢ ʏᴏᴜʀ ʟᴏɢᴏ.**\n **ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!!!**')
+ pesan = await event.reply('**Making Your Logo.**\n **Please Wait!!!**')
  try:
     text = event.pattern_match.group(1)
     randc = random.choice(LOGO_LINKS)

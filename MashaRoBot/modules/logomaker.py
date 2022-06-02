@@ -77,7 +77,7 @@ LOGO_LINKS            = ["https://telegra.ph/file/eca03ceddb387b38fdc73.jpg",
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id != OWNER_ID and not quew:
-  await event.reply('**Please Gimmie A Text For The Logo**.')
+  await event.reply('**Please Give Me A Text For Logo**.')
   return
  pesan = await event.reply('**Making Your Logo.**\n **Please Wait!!!**')
  try:

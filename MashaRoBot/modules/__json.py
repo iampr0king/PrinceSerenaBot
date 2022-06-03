@@ -57,4 +57,4 @@ __help__ = """
  ❍ /json*:* Get Detailed info about any message
 """
 
-__mod_name__ = "Jsᴏɴ📤"
+__mod_name__ = "ᴊsᴏɴ📤"

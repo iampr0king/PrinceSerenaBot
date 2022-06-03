@@ -500,7 +500,7 @@ dispatcher.add_handler(TABLE_HANDLER)
 
 dispatcher.add_handler(WEEBIFY_HANDLER)
 
-__mod_name__ = "Fᴜɴ🤣"
+__mod_name__ = "ғᴜɴ🤣"
 
 __command_list__ = [
 

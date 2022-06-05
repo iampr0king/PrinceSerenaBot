@@ -15,15 +15,15 @@ class Config(object):
     API_HASH = "FIL API HASH"
     TOKEN = "BOT_TOKEN"
     OWNER_ID = 1891633746  
-    OWNER_USERNAME = "callme_Barath"
-    SUPPORT_CHAT = 'Nobisukisupport'
+    OWNER_USERNAME = "itzmecrazy"
+    SUPPORT_CHAT = 'serena_support'
     JOIN_LOGGER = -1001739802989
     EVENT_LOGS = -1001739802989
 
     ALLOW_CHATS = "True"
     SQLALCHEMY_DATABASE_URI = 'ELEPHAT OR HEROKU DB URL'  
     LOAD = []
-    NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
+    NO_LOAD = ['rss']
     WEBHOOK = None
     INFOPIC = True
     URL = None

@@ -58,13 +58,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-IMG = ["https://telegra.ph/file/73e474ffdece45c091755.jpg",
-       "https://telegra.ph/file/fe9fc9f336d3d3421d405.jpg",
-]
-
 
 PM_START_TEXT = """
-𝐇𝐢 𝐈'𝐦 [Serena ✘]({random.choice(IMG)})
+𝐇𝐢 𝐈'𝐦 [Serena ✘](https://telegra.ph/file/73e474ffdece45c091755.jpg)
 𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐮𝐧 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help
 
 ✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰"""

@@ -74,7 +74,7 @@ SFW_STRINGS = (
     "Stupidity is not a crime so you are free to go.",
 )
 
-@bot.on_message(filters.command(['insult']))
+@register(pattern=("/insult"))
 
 @run_async
 def insult(bot: Bot, update: Update):

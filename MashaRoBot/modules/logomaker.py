@@ -109,3 +109,9 @@ async def lego(event):
             os.remove(fname)
  except Exception as e:
     await event.reply(f'Error, Report @{SUPPORT_CHAT}, {e}')
+
+__mod_name__ = "ʟᴏɢᴏ ᴍᴀᴋᴇʀ™"
+
+__help__ = """
+❍ `/logo` *:* <text> create your logo with your name
+""" 

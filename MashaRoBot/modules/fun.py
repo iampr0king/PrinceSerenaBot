@@ -422,17 +422,9 @@ __help__ = """
 
  • `/weebify <text>`*:* returns a weebified text
 
- • `/truth `*:* for random truth
-
- • `/dare `*:* for random dare
-
  • `/sanitize`*:* always use this before /pat or any contact
 
  • `/pat`*:* pats a user, or get patted
-
- • `/fun`*:* funny text,stricker and gif send
-
- • `/aq`*:* get random anime quote
 
  • `/lyrics <song name> `*:* text to voice
 

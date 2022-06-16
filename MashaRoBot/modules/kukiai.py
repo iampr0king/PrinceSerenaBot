@@ -141,7 +141,7 @@ def list_all_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 __help__= f"""
-*Nobisuki AI * 
+*Serena AI * 
 /chatbot : Enables and Disables kazuko AI Chat mode (EXCLUSIVE)
 *Powered by* : [Kuki Chatbot](https://github.com/MoeZilla/KukiChatbot)
 """

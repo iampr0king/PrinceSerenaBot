@@ -29,15 +29,14 @@ from MashaRoBot import (
     sw, LOGGER
 )
 from MashaRoBot.modules.helper_funcs.misc import article
-from MashaRoBot.modules.helper_funcs.decorators import kiginline
+from MashaRoBot.modules.helper_funcs.decorators import serinline
 
 
 def remove_prefix(text, prefix):
     if text.startswith(prefix):
         text = text.replace(prefix, "", 1)
     return text
-
-@kiginline()
+using inline()
 def inlinequery(update: Update, _) -> None:
     """
     Main InlineQueryHandler callback.
@@ -50,7 +49,7 @@ def inlinequery(update: Update, _) -> None:
         {
             "title": "SpamProtection INFO",
             "description": "Look up a person/bot/channel/chat on @Intellivoid SpamProtection API",
-            "message_text": "Click the button below to look up a person/bot/channel/chat on @Intellivoid SpamProtection API using "
+            "message_text": "Click the button below to look up a person/bot/channel/chat on @Intellivoid SpamProtection API using"
                             "username or telegram id",
             "thumb_urL": "https://telegra.ph/file/24f65659672e94922abcc.jpg",
             "keyboard": ".spb ",

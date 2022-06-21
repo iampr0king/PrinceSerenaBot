@@ -57,7 +57,7 @@ def inlinequery(update: Update, _) -> None:
             "keyboard": ".spb ",
         },
         {
-            "title": "Account info on Serena",
+            "title": "Info",
             "description": "Look up a Telegram account in Serena database",
             "message_text": "Click the button below to look up a person in Serena database using their Telegram ID",
             "thumb_urL": "https://telegra.ph/file/24f65659672e94922abcc.jpg",

@@ -7,7 +7,7 @@ import time
 import psutil
 from pyrogram import filters
 
-from MashaRoBot import (StartTime, DEV_USERS, pgram)
+from MashaRoBot import (StartTime, DEV_USERS)
 import MashaRoBot.utils.formatter as formatter
 import MashaRoBot.modules.sql.users_sql as sql
 

@@ -194,7 +194,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Report Error",
-                    url=f"https://t.me/ItzMeCrazy",
+                    url=f"https://t.me/serena_support",
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -231,7 +231,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     user = context.bot.get_chat(user_id)
     sql.update_user(user.id, user.username)
     about_text = f"""
-    [Serena ❤️](https://t.me/PrinceSerenaBot)\n*Bot State:* `Alive`\n*Python:* `{python_version()}`\n*Pyrogram:* `{pyrover}`\n*Platform:* `{sys.platform}`\n*python-telegram-bot:* `v{str(__version__)}`
+    [Serena ❤️](https://t.me/PrinceSerenaBot)\n*Bot State:* `Alive`\n*Python:* `{python_version()}`\n*Pyrogram:* `{pyrover}`\n*Platform:* `{sys.platform}`\n*Python-telegram-bot:* `v{str(__version__)}`
     """
     results: list = []
     kb = InlineKeyboardMarkup(
@@ -239,7 +239,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text='Support',
-                    url=f'https://t.me/ItzMeCrazy',
+                    url=f'https://t.me/serena_support',
                 ),
                 InlineKeyboardButton(
                     text='Sys Stats',
@@ -322,7 +322,7 @@ def spb(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Report Error",
-                    url=f"https://t.me/ItzMeCrazy",
+                    url=f"https://t.me/serena_support",
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -467,7 +467,7 @@ def media_query(query: str, update: Update, context: CallbackContext) -> None:
                 [
                     InlineKeyboardButton(
                         text="Report error",
-                        url="https://t.me/ItzMeCrazy",
+                        url="https://t.me/serena_support",
                     ),
                     InlineKeyboardButton(
                         text="Search again",

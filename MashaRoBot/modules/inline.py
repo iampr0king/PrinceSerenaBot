@@ -134,7 +134,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
     sql.update_user(user.id, user.username)
 
     text = (
-        f"<b>Information:</b>\n"
+        f"<b>User Information:</b>\n"
         f"• ID: <code>{user.id}</code>\n"
         f"• First Name: {html.escape(user.first_name)}"
     )

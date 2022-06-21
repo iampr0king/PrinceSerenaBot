@@ -10,8 +10,7 @@ from pyrogram import __version__ as pyrover
 from pyrogram import filters
 
 import requests
-from telegram import InlineQueryResultArticle, ParseMode, InlineQueryResultPhoto, InputTextMessageContent, Update, InlineKeyboardMarkup, \
-    InlineKeyboardButton
+from telegram import InlineQueryResultArticle, ParseMode, InlineQueryResultPhoto, InputTextMessageContent, Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram import __version__
 from telegram.error import BadRequest
 from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,

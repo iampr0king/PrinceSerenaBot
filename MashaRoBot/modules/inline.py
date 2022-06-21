@@ -53,28 +53,28 @@ def inlinequery(update: Update, _) -> None:
             "description": "Look up a person/bot/channel/chat on @Intellivoid SpamProtection API",
             "message_text": "Click the button below to look up a person/bot/channel/chat on @Intellivoid SpamProtection API using "
                             "username or telegram id",
-            "thumb_urL": "https://telegra.ph/file/e7bb5cf8dca5c2916128d.jpg",
+            "thumb_urL": "https://telegra.ph/file/24f65659672e94922abcc.jpg",
             "keyboard": ".spb ",
         },
         {
             "title": "Account info on Serena",
             "description": "Look up a Telegram account in Serena database",
             "message_text": "Click the button below to look up a person in Serena database using their Telegram ID",
-            "thumb_urL": "https://telegra.ph/file/d687f2d9867d7edfa0506.jpg",
+            "thumb_urL": "https://telegra.ph/file/24f65659672e94922abcc.jpg",
             "keyboard": ".info ",
         },
         {
             "title": "About",
             "description": "Know about Serena",
             "message_text": "Click the button below to get to know about Serena.",
-            "thumb_urL": "https://telegra.ph/file/99d8f926d6b99c6cb826c.jpg",
+            "thumb_urL": "https://telegra.ph/file/24f65659672e94922abcc.jpg",
             "keyboard": ".about ",
         },
         {
             "title": "Anilist",
             "description": "Search anime and manga on AniList.co",
             "message_text": "Click the button below to search anime and manga on AniList.co",
-            "thumb_urL": "https://telegra.ph/file/561a53ed2800f4dccbe30.jpg",
+            "thumb_urL": "https://telegra.ph/file/24f65659672e94922abcc.jpg",
             "keyboard": ".anilist ",
         },
     ]
@@ -208,7 +208,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
     results = [
         InlineQueryResultArticle(
             id=str(uuid4()),
-            thumb_url="https://telegra.ph/file/d687f2d9867d7edfa0506.jpg",
+            thumb_url="https://telegra.ph/file/24f65659672e94922abcc.jpg",
             title=f"User info of {html.escape(user.first_name)}",
             input_message_content=InputTextMessageContent(text, parse_mode=ParseMode.HTML,
                                                           disable_web_page_preview=True),
@@ -231,7 +231,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     user = context.bot.get_chat(user_id)
     sql.update_user(user.id, user.username)
     about_text = f"""
-    [Serena ❤️](https://t.me/PrinceSerenaBot)\n*Bot State:* `Alive`\n*Python:* `{python_version()}`\n*Pyrogram:* `{pyrover}`\n*Platform:* `{sys.platform}`\n*Python-telegram-bot:* `v{str(__version__)}`
+    [Serena ❤️](https://t.me/PrinceSerenaBot)\n*Bot State:* `Alive`\n*Python:* `{python_version()}`\n*Pyrogram:* `{pyrover}`\n*Platform:* `{sys.platform}`\n*python-telegram-bot:* `v{str(__version__)}`
     """
     results: list = []
     kb = InlineKeyboardMarkup(
@@ -254,8 +254,8 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
             id=str(uuid4()),
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/396d27f7cba3f83efceab.jpg",
-            photo_url="https://telegra.ph/file/55669ba6d3475e5d77e8d.jpg",
+            thumb_url="https://telegra.ph/file/24f65659672e94922abcc.jpg",
+            photo_url="https://telegra.ph/file/24f65659672e94922abcc.jpg",
             caption=about_text,
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=kb,
@@ -337,7 +337,7 @@ def spb(query: str, update: Update, context: CallbackContext) -> None:
         InlineQueryResultArticle(
             id=str(uuid4()),
             title=f"SpamProtection API info of {srdata or a}",
-            thumb_url="https://telegra.ph/file/e7bb5cf8dca5c2916128d.jpg",
+            thumb_url="https://telegra.ph/file/24f65659672e94922abcc.jpg",
             input_message_content=InputTextMessageContent(stats, parse_mode=ParseMode.MARKDOWN,
                                                           disable_web_page_preview=True),
             reply_markup=kb

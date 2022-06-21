@@ -5,7 +5,7 @@ from MashaRoBot import dispatcher as d
 from typing import Optional, Union, List
 
 
-class KigyoTelegramHandler:
+class SerenaTelegramHandler:
     def __init__(self, d):
         self._dispatcher = d
 
@@ -93,7 +93,7 @@ class KigyoTelegramHandler:
         return _inlinequery
 
 
-kigcmd = KigyoTelegramHandler(d).command
-kigmsg = KigyoTelegramHandler(d).message
-kigcallback = KigyoTelegramHandler(d).callbackquery
-kiginline = KigyoTelegramHandler(d).inlinequery
+sercmd = SerenaTelegramHandler(d).command
+sermsg = SerenaTelegramHandler(d).message
+sercallback = SerenaTelegramHandler(d).callbackquery
+serinline = SerenaTelegramHandler(d).inlinequery

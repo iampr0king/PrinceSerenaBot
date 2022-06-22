@@ -1,5 +1,7 @@
 ubot
 future
+glitch_this
+NumPy
 emoji
 pykeyboard
 lxml

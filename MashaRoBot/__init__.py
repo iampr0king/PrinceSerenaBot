@@ -105,6 +105,7 @@ if ENV:
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
     AI_API_KEY = os.environ.get('AI_API_KEY', None)
     WALL_API = os.environ.get('WALL_API', None)
+    REM_BG_API_KEY = os.environ.get('REM_BG_API_KEY', None)
     
     TOKEN = os.environ.get('TOKEN', None)
     SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', None)

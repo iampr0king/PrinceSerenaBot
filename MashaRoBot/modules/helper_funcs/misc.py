@@ -60,9 +60,9 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
         pairs.append((modules[-1],))
     else:
         pairs += [[
-            (EqInlineKeyboardButton("Try inline", switch_inline_query_current_chat="",)),
+            (EqInlineKeyboardButton("ᴛʀʏ ɪɴʟɪɴᴇ", switch_inline_query_current_chat="",)),
                 EqInlineKeyboardButton("🔸ɢᴏ ʙᴀᴄᴋ🔸", callback_data="masha_back"),
-             EqInlineKeyboardButton("Support", url="t.me/serena_support")]]
+             EqInlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="t.me/serena_support")]]
 
     return pairs
 

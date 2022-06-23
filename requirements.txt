@@ -1,7 +1,5 @@
 ubot
 future
-glitch_this
-NumPy
 emoji
 pykeyboard
 lxml
@@ -10,7 +8,6 @@ gtts
 beautifulsoup4
 requests==2.20.0
 python-telegram-bot==13.11
-opencv-python-headless
 sqlalchemy==1.3.23
 PyDictionary==2.0.1
 psycopg2-binary

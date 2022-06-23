@@ -1,6 +1,6 @@
 import time
 from typing import List
-from import dispatcher
+from .. import dispatcher
 
 from telegram import __version__ as ptbver, ParseMode, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import run_async, CallbackContext

@@ -88,6 +88,3 @@ def alive(update: Update, context: CallbackContext):
 
 ALIVE_HANDLER = DisableAbleCommandHandler("alive",alive, run_async=True)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack, run_async=True)
-
-dispatcher.add_handler(ALIVE_HANDLER)
-dispatcher.add_handler(HACK_HANDLER)

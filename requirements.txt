@@ -41,7 +41,7 @@ cachetools
 ujson
 pretty_errors
 TgCrypto
-Pyrogram
+pyrogram
 youtube_search
 asyncio
 dateparser==1.0.0

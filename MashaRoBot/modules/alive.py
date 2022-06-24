@@ -1,5 +1,5 @@
 import asyncio
-import os #fuck
+import os
 import requests
 import datetime
 import time

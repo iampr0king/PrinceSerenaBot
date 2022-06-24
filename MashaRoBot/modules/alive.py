@@ -7,6 +7,7 @@ from PIL import Image
 from io import BytesIO
 from datetime import datetime
 import random
+from pyrogram import __version__ as pyro
 from telethon import events, Button, custom, version
 from MashaRoBot.events import register
 from MashaRoBot import telethn as borg
@@ -59,6 +60,7 @@ async def hmm(yes):
     pm_caption = f"** ♡ Hi {mention}! I,m Serena ✘ **\n\n"
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
+    pm_caption += f"**♡ Pyorgram Version :** `{Pyro}`\n\n"
     pm_caption += "**♡ My Master :** [Barath](https://t.me/itzmecrazy)\n"
     BUTTON = [[Button.url("Support", "https://t.me/serena_support"), Button.url("Updates", "https://t.me/SerenaUpdates")]]
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)

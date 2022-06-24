@@ -59,7 +59,7 @@ async def hmm(yes):
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     pm_caption = f"** ♡ Hi {mention}! I,m Serena ✘ **\n\n"
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
-    pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
+    pm_caption += f"**♡ Telethon Version :** `{version.__version__}`"
     pm_caption += f"**♡ Pyorgram Version :** `{Pyro}`\n\n"
     pm_caption += "**♡ My Master :** [Barath](https://t.me/itzmecrazy)\n"
     BUTTON = [[Button.url("Support", "https://t.me/serena_support"), Button.url("Updates", "https://t.me/SerenaUpdates")]]

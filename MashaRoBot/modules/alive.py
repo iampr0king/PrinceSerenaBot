@@ -15,15 +15,15 @@ from MashaRoBot import StartTime, dispatcher
 from telethon.tl.types import ChannelParticipantsAdmins
 
 edit_time = 5
-""" =======================SERENA====================== """
-file1 = "https://telegra.ph/file/8a48d5b1fa7129a07bc2a.jpg"
-file2 = "https://telegra.ph/file/a541cc9b5f38a7fcf6c13.jpg"
-file3 = "https://telegra.ph/file/4cb3c137cc06121e410b4.jpg"
-file4 = "https://telegra.ph/file/5f92dd01bf8d9d0528ed8.jpg"
-file5 = "https://telegra.ph/file/f96a0748425e2fe528f0a.jpg"
-""" =======================SERENA====================== """
+""" =======================ѕєηѕσяу====================== """
+file1 = "https://telegra.ph/file/337ba98c57e1b320bfb1c.jpg"
+file2 = "https://telegra.ph/file/337ba98c57e1b320bfb1c.jpg"
+file3 = "https://telegra.ph/file/337ba98c57e1b320bfb1c.jpg"
+file4 = "https://telegra.ph/file/337ba98c57e1b320bfb1c.jpg"
+file5 = "https://telegra.ph/file/337ba98c57e1b320bfb1c.jpg"
+""" =======================ѕєηѕσяу====================== """
 
-BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/serena_support"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/SerenaUpdates")]]
+BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/ALONE_MUSIC_ADD_ICT"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/ALONE_MUSIC_ADD_ICT")]]
 
 
 START_TIME = datetime.utcnow()
@@ -57,13 +57,13 @@ async def hmm(yes):
     user_id = yes.sender.id
     user_name = yes.sender.first_name
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
-    pm_caption = f"** ♡ Hi {mention}! I,m Serena ✘ **\n\n"
+    pm_caption = f"** ♡ Hi {mention}! I,m ѕєηѕσяу ✘ **\n\n"
     pm_caption += f"**♡ Bot State :** `Alive`\n\n"
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
     pm_caption += f"**♡ Pyorgram Version :** `{pyro}`\n\n"
-    pm_caption += "**♡ My Master :** [Barath](https://t.me/itzmecrazy)\n"
-    BUTTON = [[Button.url("Support", "https://t.me/serena_support"), Button.url("Updates", "https://t.me/SerenaUpdates")]]
+    pm_caption += "**♡ My Master :** [Barath](https://t.me/alone_sensory)\n"
+    BUTTON = [[Button.url("Support", "https://t.me/ALONE_MUSIC_ADD_ICT"), Button.url("Updates", "https://t.me/ALONE_MUSIC_ADD_ICT")]]
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     
 

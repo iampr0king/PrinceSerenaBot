@@ -60,7 +60,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐢 𝐈'𝐦 Serena ✘
+𝐇𝐢 𝐈'𝐦 ѕєηѕσяу ✘
 𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐔𝐬𝐞𝐟𝐮𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐀𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help
 
 ✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰"""
@@ -68,16 +68,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/PrinceSerenaBot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 ѕєηѕσяу 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/sensory_ro_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Serena_Support"),
+        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/ALONE_MUSIC_ADD_ICT"),
         InlineKeyboardButton(
-            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/SerenaUpdates"
+            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/ALONE_MUSIC_ADD_ICT"
         ),
     ],
     [
-        InlineKeyboardButton(text="👨‍💻 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/itzmecrazy"),
+        InlineKeyboardButton(text="👨‍💻 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/alone_sensory"),
         InlineKeyboardButton(
             text="🤗 𝐓𝐫𝐲 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query_current_chat="",
         ),
@@ -89,12 +89,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝐇𝐢 𝐈'𝐦 Serena ✘!
+𝐇𝐢 𝐈'𝐦 ѕєηѕσяу ✘!
 𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐦𝐚𝐧𝐚𝐠𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬!
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞:
 × /start: 𝐒𝐭𝐚𝐫𝐭 𝐭𝐡𝐞 𝐛𝐨𝐭
 × /help: 𝐆𝐢𝐯𝐞'𝐬 𝐲𝐨𝐮 𝐭𝐡𝐢𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞.
-× /donate: 𝐆𝐢𝐯𝐞𝐬 𝐲𝐨𝐮 𝐢𝐧𝐟𝐨 𝐨𝐧 𝐡𝐨𝐰 𝐭𝐨 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐞 𝐚𝐧𝐝 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫.
 𝐀𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐞𝐢𝐭𝐡𝐞𝐫 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 / 𝐎𝐑 !."""
 
 DONATE_STRING = """Don't need to donate I'm free for every one add your group's this my donate🙂"""
@@ -217,10 +216,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/serena_support")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/ALONE_MUSIC_ADD_ICT")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/SerenaUpdates")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/ALONE_MUSIC_ADD_ICT")
                   ]
                 ]
             ),
@@ -355,15 +354,14 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Serena ✘*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ѕєηѕσяу ✘*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admin's permissions before executing any command and more stuffs
-                 \n\n_Serena's licensed under the GNU General Public License v3.0_
-                 \n\nIf you have any question about Serena, let us know at @Serena_Support.""",
+                 \n\nIf you have any question about ѕєηѕσяу, let us know at @i_m_pr0_king.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -389,8 +387,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Serena ✘*
-                 \nMy source code is private  [support](t.me/serena_support) .""",
+            text=""" Hi..🤗 I'm *ѕєηѕσяу ✘*
+                 \nMy source code is private  [support](t.me/ALONE_MUSIC_ADD_ICT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -637,7 +635,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 5475998067 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),

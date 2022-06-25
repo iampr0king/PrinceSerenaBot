@@ -23,7 +23,7 @@ from MashaRoBot import telethn as tbot
 from PIL import Image, ImageDraw, ImageFont
 
 
-LOGO_LINKS            = ["https://telegra.ph/file/308d78555ce7d6b74f864.jpg",
+LOGO_LINKS            = [ "https://telegra.ph/file/308d78555ce7d6b74f864.jpg",
     "https://telegra.ph/file/04f13cadb8ec5c8fdb855.jpg",
     "https://telegra.ph/file/35148e14eb0adba7b33a9.jpg",
     "https://telegra.ph/file/ee98301675b3b26c1a12d.jpg",
@@ -60,7 +60,7 @@ LOGO_LINKS            = ["https://telegra.ph/file/308d78555ce7d6b74f864.jpg",
     "https://telegra.ph/file/292f2aee761a7e18cd707.jpg",
    "https://telegra.ph/file/0f6dc05786b4cd34a3178.jpg",
    "https://telegra.ph/file/89ffb563320efde594247.jpg", 
-    "https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
+                        "https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
                          "https://telegra.ph/file/c1ff2d5ec5e1b5bd1b200.jpg",
                          "https://telegra.ph/file/08c5fbe14cc4b13d1de05.jpg",
                          "https://telegra.ph/file/66614a049d74fe2a220dc.jpg",
@@ -289,18 +289,18 @@ LOGO_LINKS            = ["https://telegra.ph/file/308d78555ce7d6b74f864.jpg",
                          "https://telegra.ph/file/258c02c002e89287d5d9b.jpg",
                          "https://telegra.ph/file/d2abc99773a9d4954c2ba.jpg",                       
                          "https://telegra.ph/file/9849b3940f063b065f4e3.jpg"
-    "https://telegra.ph/file/eca03ceddb387b38fdc73.jpg",
-    "https://telegra.ph/file/e65e246fb1db004649e97.jpg",
-"https://telegra.ph/file/8b46a80e5750577cdde73.jpg",
-"https://telegra.ph/file/c3537ea071fe34df1c4ea.jpg",
-"https://telegra.ph/file/ceb490e6106dfccae5016.jpg",
-"https://telegra.ph/file/1c1eff19da3421fbe728b.jpg",
-"https://telegra.ph/file/176d00e7e85333cc79fed.jpg",
-"https://telegra.ph/file/ee66f1c74bcb768882032.jpg",
-"https://telegra.ph/file/bdb3693cba96acc7dfa03.jpg",
-"https://telegra.ph/file/0e4d1738f5fb1d54fcdd7.jpg",
-"https://telegra.ph/file/77c42b7382fb99797642e.jpg",
-    "https://telegra.ph/file/df1331d378ea9f38a0090.jpg",
+                         "https://telegra.ph/file/eca03ceddb387b38fdc73.jpg",
+                         "https://telegra.ph/file/e65e246fb1db004649e97.jpg",
+                        "https://telegra.ph/file/8b46a80e5750577cdde73.jpg",
+                        "https://telegra.ph/file/c3537ea071fe34df1c4ea.jpg",
+                        "https://telegra.ph/file/ceb490e6106dfccae5016.jpg",
+                        "https://telegra.ph/file/1c1eff19da3421fbe728b.jpg",
+                        "https://telegra.ph/file/176d00e7e85333cc79fed.jpg",
+                        "https://telegra.ph/file/ee66f1c74bcb768882032.jpg",
+                        "https://telegra.ph/file/bdb3693cba96acc7dfa03.jpg",
+                        "https://telegra.ph/file/0e4d1738f5fb1d54fcdd7.jpg",
+                        "https://telegra.ph/file/77c42b7382fb99797642e.jpg",
+                        "https://telegra.ph/file/df1331d378ea9f38a0090.jpg",
                          "https://telegra.ph/file/735c44767dda2b00442ca.jpg",
                          "https://telegra.ph/file/5503b1017a1f398090baa.jpg",
                          "https://telegra.ph/file/4e0ed6862df9f988b9f30.jpg",
@@ -328,15 +328,15 @@ LOGO_LINKS            = ["https://telegra.ph/file/308d78555ce7d6b74f864.jpg",
                          "https://telegra.ph/file/742f66b37753d48acfb4a.jpg",
                          "https://telegra.ph/file/3ff65d24bb2098e35261f.jpg",
                          "https://telegra.ph/file/f4c4b0f5ecc569a73a892.jpg",
-"https://telegra.ph/file/53cf86072b5cb1d743626.jpg",
-"https://telegra.ph/file/c2789ee5e396038706964.jpg",
-"https://telegra.ph/file/3986db1f05132ec799ef4.jpg",
-"https://telegra.ph/file/7bea67082d9bb648c4210.jpg",
-"https://telegra.ph/file/a9d891dab340566de3882.jpg",
-"https://telegra.ph/file/a55e21cee1dd03be2f4d3.jpg",
-"https://telegra.ph/file/3f5051e8194d2a554c153.jpg",
-"https://telegra.ph/file/abacfba1c4f25912fa7b3.jpg",
-"https://telegra.ph/file/92baf91c90e2f784148fa.jpg"
+                        "https://telegra.ph/file/53cf86072b5cb1d743626.jpg",
+                        "https://telegra.ph/file/c2789ee5e396038706964.jpg",
+                        "https://telegra.ph/file/3986db1f05132ec799ef4.jpg",
+                        "https://telegra.ph/file/7bea67082d9bb648c4210.jpg",
+                        "https://telegra.ph/file/a9d891dab340566de3882.jpg",
+                        "https://telegra.ph/file/a55e21cee1dd03be2f4d3.jpg",
+                        "https://telegra.ph/file/3f5051e8194d2a554c153.jpg",
+                        "https://telegra.ph/file/abacfba1c4f25912fa7b3.jpg",
+                        "https://telegra.ph/file/92baf91c90e2f784148fa.jpg"
 ]
 
 @register(pattern="^/logo ?(.*)")
@@ -367,8 +367,8 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "logo.png"
     img.save(fname, "png")
-    serena = [[Button.url("MADE BY ѕєηѕσяу", "http://t.me/sensory_ro_bot")]]
-    await tbot.send_file(event.chat_id, file=fname,buttons=ѕєηѕσяу)
+    serena = [[Button.url("MADE BY SERENA", "t.me/princeserenabot")]]
+    await tbot.send_file(event.chat_id, file=fname,buttons=serena)
     
     await pesan.delete()
     if os.path.exists(fname):

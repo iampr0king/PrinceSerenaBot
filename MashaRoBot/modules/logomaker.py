@@ -367,7 +367,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "logo.png"
     img.save(fname, "png")
-    serena = [[Button.url("MADE BY SERENA", "t.me/princeserenabot")]]
+    serena = [[Button.url("MADE BY ѕєηѕσяу", "t.me/sensory_ro_bot")]]
     await tbot.send_file(event.chat_id, file=fname,buttons=serena)
     
     await pesan.delete()

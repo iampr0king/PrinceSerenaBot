@@ -62,7 +62,7 @@ async def hmm(yes):
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
     pm_caption += f"**♡ Pyorgram Version :** `{pyro}`\n\n"
-    pm_caption += "**♡ My Master :** [Barath](https://t.me/alone_sensory)\n"
+    pm_caption += "**♡ My Master :** [ѕєηѕσяу](https://t.me/alone_sensory)\n"
     BUTTON = [[Button.url("Support", "https://t.me/ALONE_MUSIC_ADD_ICT"), Button.url("Updates", "https://t.me/ALONE_MUSIC_ADD_ICT")]]
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     

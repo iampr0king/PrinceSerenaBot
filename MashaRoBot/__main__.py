@@ -68,7 +68,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 χєηση 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/sensory_ro_bot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 χєηση 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/xenon_r0bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/ALONE_MUSIC_ADD_ICT"),

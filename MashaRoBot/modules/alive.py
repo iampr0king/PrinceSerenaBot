@@ -57,12 +57,12 @@ async def hmm(yes):
     user_id = yes.sender.id
     user_name = yes.sender.first_name
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
-    pm_caption = f"** ♡ Hi {mention}! I,m χєηση ✘ **\n\n"
+    pm_caption = f"** ♡ Hi {mention}! I,m ₳Ɽ₵₳₦Ɇ ✘ **\n\n"
     pm_caption += f"**♡ Bot State :** `Alive`\n\n"
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
     pm_caption += f"**♡ Pyorgram Version :** `{pyro}`\n\n"
-    pm_caption += "**♡ My Master :** [χєηση](https://t.me/alone_xenon)\n"
+    pm_caption += "**♡ My Master :** [₳Ɽ₵₳₦Ɇ](https://t.me/ALone_Arcane)\n"
     BUTTON = [[Button.url("Support", "https://t.me/ALONE_MUSIC_ADD_ICT"), Button.url("Updates", "https://t.me/ALONE_MUSIC_ADD_ICT")]]
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     

@@ -60,7 +60,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐢 𝐈'𝐦 χєηση ✘
+𝐇𝐢 𝐈'𝐦 ₳Ɽ₵₳₦Ɇ ✘
 𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐔𝐬𝐞𝐟𝐮𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐀𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬! 𝐇𝐢𝐭 /help
 
 ✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰"""
@@ -68,7 +68,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 χєηση 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/xenon_r0bot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 χєηση 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/arcane_ro_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/ALONE_MUSIC_ADD_ICT"),
@@ -89,7 +89,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝐇𝐢 𝐈'𝐦 χєηση ✘!
+𝐇𝐢 𝐈'𝐦 ₳Ɽ₵₳₦Ɇ ✘!
 𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐦𝐚𝐧𝐚𝐠𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬!
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞:
 × /start: 𝐒𝐭𝐚𝐫𝐭 𝐭𝐡𝐞 𝐛𝐨𝐭
@@ -354,7 +354,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *ѕєηѕσяу ✘*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *₳Ɽ₵₳₦Ɇ ✘*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -387,7 +387,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *χєηση ✘*
+            text=""" Hi..🤗 I'm *₳Ɽ₵₳₦Ɇ ✘*
                  \nMy source code is private  [support](t.me/ALONE_MUSIC_ADD_ICT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
